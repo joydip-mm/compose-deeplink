@@ -33,7 +33,7 @@
 
 
             <!-- Accepts URIs that begin with "https://bassforecast.page.link/” -->
-            <data android:scheme="https" android:host="myapp.com" />
+            <data android:scheme="https" android:host="tictactoeassignment.page.link" />
             </intent-filter>
 
             <meta-data

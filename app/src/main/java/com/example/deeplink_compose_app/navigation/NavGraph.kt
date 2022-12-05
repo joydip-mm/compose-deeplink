@@ -17,7 +17,7 @@ fun setNavGraph(navController: NavHostController){
             route = Screen.FirstScreen.route,
             deepLinks = listOf(
                 navDeepLink {
-                    uriPattern = "https://myapp.com/first_screen"
+                    uriPattern = "https://tictactoeassignment.page.link/first_screen"
                     action = Intent.ACTION_VIEW
                 }
             )
@@ -28,7 +28,7 @@ fun setNavGraph(navController: NavHostController){
             route = Screen.DetailScreen.route,
             deepLinks = listOf(
                 navDeepLink {
-                    uriPattern = "https://myapp.com/details_screen"
+                    uriPattern = "https://tictactoeassignment.page.link/details_screen"
                     action = Intent.ACTION_VIEW
                 }
             )
