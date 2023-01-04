@@ -7,12 +7,14 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.navigation.NavBackStackEntry
 
 @Composable
-fun FirstScreen(){
+fun FirstScreen(entry : NavBackStackEntry){
+    val appName = entry.arguments?.getString("app_name")
     Column(Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally) {
-        Text(text = "Hi,This is first screeen")
+        Text(text = "Hi,This is ${appName}")
     }
 }
